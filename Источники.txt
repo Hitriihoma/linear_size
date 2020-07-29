@@ -1,0 +1,13 @@
+1. Кудрина Мария Александровна Использование преобразования Хафа для обнаружения прямых линий и окружностей на изображении 
+// Известия Самарского научного центра РАН. 2014. №4-2. 
+2. Алгоритм Хафа для обнаружения произвольных кривых на изображениях. https://habr.com/ru/post/102948/
+3. Нахождение объектов на картинках. https://habr.com/ru/company/joom/blog/445354/
+
+Выводы:
+Нам подходит: 
+1. Canny Edge Detector (Edge detection) (входит в алгоритм поиска преобразованием Хафа - https://stackoverflow.com/questions/45322630/how-to-detect-lines-in-opencv)
+2. Hough Transform
+3. FAST (Features from Accelerated Segment Test)
+4. SIFT (Scale-invariant feature transform) -  SIFT is computationally expensive and finding out interest points take a lot of memory
+(https://stackoverflow.com/questions/46398605/python-computing-sift-freatures-using-opencv-the-kernel-died-segmentation-fa)
+
